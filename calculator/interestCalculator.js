@@ -32,7 +32,7 @@
 
     SItotal.addEventListener('click', SIcalculate);
     CItotal.addEventListener('click', CIcalculate);
-
+rec
 })();
 
 
