@@ -26,10 +26,6 @@
         let timeValue = time.value;
         let compounds = (document.getElementById('CIcompoundstotal'));
         let compoundsValue = compounds.value;
-
-
-        //1 can be changed to ntimes per year
-        //formula doesn't work
         let answer = (principleValue * (Math.pow((1 + (rateValue / compoundsValue)), (timeValue * compoundsValue))));
         CItotal.innerText = answer;
     }
