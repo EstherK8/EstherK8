@@ -31,7 +31,6 @@
         //1 can be changed to ntimes per year
         //formula doesn't work
         let answer = (principleValue * (Math.pow((1 + (rateValue / compoundsValue)), (timeValue * compoundsValue))));
-        console.log(`answer: ${answer}`);
         CItotal.innerText = answer;
     }
 

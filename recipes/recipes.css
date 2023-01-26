@@ -1,0 +1,131 @@
+   html {
+       height: 90%;
+       margin: 2.2%;
+   }
+
+   body {
+       margin: 0px;
+       margin-top: 30px;
+       display: grid;
+       background-color: oldlace;
+       user-select: none;
+       grid-template-areas:
+           "blank0 book blank comments"
+           "blank0 book tab comments"
+           "blank0 book tab comments"
+           "blank0 book tab comments"
+           "blank0 book tab comments"
+           "blank0 book tab comments"
+           "blank0 book tab comments";
+       justify-content: center;
+       height: 100%;
+       /* for full screen */
+       grid-template-columns: 10fr 11fr 1fr 9fr;
+       grid-template-rows: 10fr 20fr 20fr 20fr 20fr 20fr 20fr;
+   }
+
+   @media screen and (max-width: 800px) {
+       body {
+           grid-template-columns: 4fr 20fr 1fr 4fr;
+       }
+   }
+
+   @media screen and (max-width: 470px) {
+       body {
+           grid-template-areas:
+               " book blank "
+               " book tab "
+               " book tab "
+               " book tab "
+               " book tab "
+               " book tab "
+               " book tab "
+               "comments comments";
+           grid-template-columns: 11fr 1fr;
+       }
+   }
+
+   #spot {
+       grid-area: tab;
+       justify-self: start;
+       writing-mode: vertical-rl;
+       align-self: flex-start;
+   }
+
+   #spot p {
+       float: left;
+       padding: 5px;
+       /* margin-bottom: 1em; */
+       background-color: wheat;
+       border-radius: 0px 10px 10px 0px;
+       margin: 0px;
+       margin-bottom: 1px;
+       text-align: center;
+       height: 85px;
+   }
+
+   #spot p:hover {
+       font-weight: bold;
+       /* color: red; */
+       background-color: rgb(241, 204, 135);
+       cursor: default
+   }
+
+   #recipeSpot {
+       height: 100%;
+       width: 100%;
+       grid-area: book;
+       background-color: navy;
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-position: right;
+       /* min-width: 30em; */
+       display: grid;
+       justify-self: end;
+       margin: 0px;
+   }
+
+   #recipeSpot h1 {
+       margin-bottom: 0px;
+       background-color: lightblue;
+       justify-content: center;
+       text-align: center;
+       font-family: cursive;
+       align-self: center;
+       padding: 15px;
+   }
+
+   #ingredients,
+   #directions {
+       background-color: white;
+       width: 80%;
+       justify-self: center;
+       border: 3px solid;
+       margin: 20px;
+
+   }
+
+   #ingredients {
+       border-color: salmon;
+       display: none;
+   }
+
+   #ingredients a {
+       display: block;
+       margin: 3px;
+   }
+
+   #directions {
+       border-color: plum;
+   }
+
+   #recipeSpot img {
+       min-width: 200px;
+       align-self: center;
+       justify-self: center;
+       border: 4px solid black;
+       max-height: 275px;
+    visibility: hidden;
+       max-width: 400px;
+
+   }

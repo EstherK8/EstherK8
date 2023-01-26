@@ -1,0 +1,50 @@
+{
+    "recipeCatagories": [
+        "desserts",
+        "dairyAndFish",
+        "salads"
+    ],
+    "recipeDetails": {
+        "ChocoloteCake": {
+            "ingredients": "cookies ingredients: chocolate chips, sugar - mix together",
+            "instructions": "mix"
+        },
+        "BlintzSouffle": {
+            "ingredients": "6 cheese blintzes6 cherry or blueberry blintzes ¼ c oil 5 eggs 1 ½ c sour cream 1 tsp. vanilla ½ c sugar ¼ c orange juice",
+            "instructions": "1. Place cheese blintzes in a pan, and then place fruit blintzes on top.2. Mix all the rest of the ingredients together and beat until smooth. 3. Pour the sauce over the blintzes. 4. Bake at 400° until set and browned. 5. Cut into slices.",
+            "image": "images/BlintzSouffle.jpg"
+        },
+        "CheeseBlintzes": {
+            "ingredients": "2 eggs2 Tbsp. oil 1 c milk ¾ c flour ½ tsp. salt. Filling: ¼ lb. cream cheese ¼ lb. cottage cheese 2 egg yolks 2 Tbsp. sugar 1 tsp. vanilla",
+            "instructions": "1. Mix eggs, oil, and milk, and add the flour and salt. Mix well. 2. Pour a small amount into a frying pan to make a thin crêpe. Heat on low-medium flame until lightly browned. 3. Mix all the filling ingredients together.4. Place filling into center of the crêpes. Fold over the edges and seal. 5. Heat in oven before serving.",
+            "image": "images/CheeseBlintzes.jpg"
+        },
+        "Salmon(Denas)": {
+            "ingredients": "6-8 pieces salmon fillet without skin. Dressing: 1 c water 1 c white vinegar ½ c sugar 10 oz ketchup 2-3 T pickling spices",
+            "instructions": "1) Boil dressing ingredients. Be carefulnot to scorch. Simmer for 5 minutes until thickened. 2) Place fish in 9x13 pan. 3) Slice 2 medium red onions in rings. Place them over fish. 4) Pour dressing, while hot, over fish and onions. 5) Bake covered for 35 minutes.",
+            "image": "images/Salmon.jpg"
+        },
+        "LemonIceWhip": {
+            "ingredients": "8 oz Rich’s whip10 oz marshmallow fluff. 1 can of lemon meringue pie filling",
+            "instructions": "1) Combine the ingredients.2) Add to graham cracker pie crusts. 3) Freeze if desired: can pour strawberry sauce or decorate with whip.",
+            "image": "images/LemonIceWhip.jpg"
+        },
+        "cucumberSalad": {
+            "ingredients": "10 cucumbers. 2 tsp salt. ¼ cup sugar. Dill. Red onion. 1 c vinegar ",
+            "instructions": "Slice cucumbers in circles and mix all of the other ingredients together. Put the cucumbers into the mixture.",
+            "image": "images/cucumberSalad.jpg"
+        }
+    },
+    "desserts": [
+        "LemonIceWhip",
+        "ChocoloteCake"
+    ],
+    "dairyAndFish": [
+        "BlintzSouffle",
+        "CheeseBlintzes",
+        "Salmon(Denas)"
+    ],
+    "salads": [
+        "cucumberSalad"
+    ]
+}
